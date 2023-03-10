@@ -35,6 +35,11 @@ public class SkillController {
         return skillService.categoryFinder(category);
     }
 
+    @GetMapping
+    public @ResponseBody String trial() {
+        return "This goes well";
+    }
+
 
 }
 
